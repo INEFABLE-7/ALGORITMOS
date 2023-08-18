@@ -32,10 +32,12 @@ public class Mavenproject1 {
                     numeros[j] = numeros[j + 1];
                     numeros[j + 1] = temp;
                 }
-        
-                
+            }
         }
-        
+       System.out.println("esta es tu lista de numeros ordenados:");
+        for (int numero : numeros) {
+            System.out.print(numero + " ");
     }
+        
 }
     }
