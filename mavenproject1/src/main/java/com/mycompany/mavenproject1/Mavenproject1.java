@@ -22,7 +22,7 @@ public class Mavenproject1 {
             System.out.print("Ingrese el número #" + (i + 1) + ": ");
             numeros[i] = jean.nextInt();
         }
-        
+        // ESTE ES UN FUNCION DE LOGARITMO PARA ORDENAR DATOS INGRESADOS EN ESTE CASO NUMEROS
         int n = numeros.length;
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
