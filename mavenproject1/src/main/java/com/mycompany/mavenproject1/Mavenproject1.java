@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Mavenproject1 {
 
     public static void main(String[] args) {
-        System.out.println("#SISTEMA DE ORDEDNAR NUMEROS INGRESADOS AL AZAR");
+        System.out.println("#SISTEMA DE ORDENAR NUMEROS INGRESADOS AL AZAR");
         
         Scanner jean= new Scanner(System.in);
         int[] numeros = new int[5];
